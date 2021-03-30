@@ -1,0 +1,27 @@
+.footer-sec {
+  /* max-width: 70%; */
+  margin: 1rem auto;
+  color: #999999;
+  font-size: 0.9rem;
+}
+.footer-sec p {
+  margin-bottom: 1rem;
+  margin-left: 100px;
+}
+
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer-sec li {
+  line-height: 2.5rem;
+}
+
+.waterprove {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding-top: 50px;
+}

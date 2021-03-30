@@ -1,0 +1,60 @@
+.faq {
+  text-align: center;
+}
+
+.faq h1 {
+  padding-bottom: 40px;
+  font-size: 3rem;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: center;
+}
+
+.questions li {
+  padding: 20px 30px;
+  margin: 5px;
+  font-size: 1.6rem;
+  background-color: #303030;
+  color: white;
+  text-align: left;
+  width: 60%;
+}
+
+.faq p {
+  padding-top: 60px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  padding-left: 250px;
+  padding-top: 20px;
+}
+.faq input {
+  left: 45%;
+  width: 425px;
+  height: 40px;
+  padding: 5px;
+}
+.btn-GS-last {
+  width: 200px;
+  height: 55px;
+  font-size: 1.75rem;
+  /* font-size: 1.5rem; */
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  /* padding: 5px; */
+}
+
+.btn-GS-last:hover {
+  opacity: 0.9;
+}
